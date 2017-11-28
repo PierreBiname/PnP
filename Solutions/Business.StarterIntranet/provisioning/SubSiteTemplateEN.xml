@@ -965,35 +965,63 @@
                 <pnp:Property Key="_Sys_Nav_IsNavigationTermSet" Value="True" />
               </pnp:CustomProperties>
               <pnp:Terms>
-                <pnp:Term Name="News">
-                  <pnp:Labels>
-                    <pnp:Label Language="1036" Value="À propos de PnP" IsDefaultForLanguage="true" />
-                  </pnp:Labels>
-                  <pnp:LocalCustomProperties>
-                    <pnp:Property Key="_Sys_Nav_SimpleLinkUrl" Value="" />
-                  </pnp:LocalCustomProperties>
-                </pnp:Term>
-                <pnp:Term Name="Sites">
+                <pnp:Term Name="Jean Gotta">
                   <pnp:Terms>
-                    <pnp:Term Name="Site Link 1">
+                    <pnp:Term Name="The Company">
                       <pnp:Labels>
-                        <pnp:Label Language="1036" Value="Lien vers site 1" IsDefaultForLanguage="true" />
+                        <pnp:Label Language="1036" Value="L'entreprise" IsDefaultForLanguage="true" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
                         <pnp:Property Key="_Sys_Nav_SimpleLinkUrl" Value="" />
                       </pnp:LocalCustomProperties>
+                      <pnp:Terms>
+                        <pnp:Term Name="Our areas of activity">
+                          <pnp:Labels>
+                            <pnp:Label Language="1036" Value="Nos Métiers" IsDefaultForLanguage="true" />
+                          </pnp:Labels>
+                          <pnp:LocalCustomProperties>
+                            <pnp:Property Key="_Sys_Nav_SimpleLinkUrl" Value="" />
+                          </pnp:LocalCustomProperties>
+                        </pnp:Term>
+                        <pnp:Term Name="who we are?">
+                          <pnp:Labels>
+                            <pnp:Label Language="1036" Value="Qui sommes nous?" IsDefaultForLanguage="true" />
+                          </pnp:Labels>
+                          <pnp:LocalCustomProperties>
+                            <pnp:Property Key="_Sys_Nav_SimpleLinkUrl" Value="" />
+                          </pnp:LocalCustomProperties>
+                        </pnp:Term>
+                      </pnp:Terms>
                     </pnp:Term>
-                    <pnp:Term Name="Site link 2">
+                    <pnp:Term Name="Governance">
                       <pnp:Labels>
-                        <pnp:Label Language="1036" Value="Lien vers site 2" IsDefaultForLanguage="true" />
+                        <pnp:Label Language="1036" Value="Gouvernance" IsDefaultForLanguage="true" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
                         <pnp:Property Key="_Sys_Nav_SimpleLinkUrl" Value="" />
                       </pnp:LocalCustomProperties>
+                      <pnp:Terms>
+                        <pnp:Term Name="board of directors">
+                          <pnp:Labels>
+                            <pnp:Label Language="1036" Value="Conseil d'administration" IsDefaultForLanguage="true" />
+                          </pnp:Labels>
+                          <pnp:LocalCustomProperties>
+                            <pnp:Property Key="_Sys_Nav_SimpleLinkUrl" Value="" />
+                          </pnp:LocalCustomProperties>
+                        </pnp:Term>
+                        <pnp:Term Name="Executive Committee">
+                          <pnp:Labels>
+                            <pnp:Label Language="1036" Value="Comité Executif" IsDefaultForLanguage="true" />
+                          </pnp:Labels>
+                          <pnp:LocalCustomProperties>
+                            <pnp:Property Key="_Sys_Nav_SimpleLinkUrl" Value="" />
+                          </pnp:LocalCustomProperties>
+                        </pnp:Term>
+                      </pnp:Terms>
                     </pnp:Term>
-                    <pnp:Term Name="Site link 3">
+                    <pnp:Term Name="The Group">
                       <pnp:Labels>
-                        <pnp:Label Language="1036" Value="Lien vers site 3" IsDefaultForLanguage="true" />
+                        <pnp:Label Language="1036" Value="Le Groupe" IsDefaultForLanguage="true" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
                         <pnp:Property Key="_Sys_Nav_SimpleLinkUrl" Value="" />
@@ -1001,7 +1029,87 @@
                     </pnp:Term>
                   </pnp:Terms>
                   <pnp:Labels>
-                    <pnp:Label Language="1036" Value="Sites" IsDefaultForLanguage="true" />
+                    <pnp:Label Language="1036" Value="Jean Gotta" IsDefaultForLanguage="true" />
+                  </pnp:Labels>
+                  <pnp:LocalCustomProperties>
+                    <pnp:Property Key="_Sys_Nav_SimpleLinkUrl" Value="" />
+                  </pnp:LocalCustomProperties>
+                </pnp:Term>
+                <pnp:Term Name="Working @ GHL Group">
+                  <pnp:Terms>
+                    <pnp:Term Name="Human Resources">
+                      <pnp:Labels>
+                        <pnp:Label Language="1036" Value="Ressources Humaines" IsDefaultForLanguage="true" />
+                      </pnp:Labels>
+                      <pnp:LocalCustomProperties>
+                        <pnp:Property Key="_Sys_Nav_SimpleLinkUrl" Value="" />
+                      </pnp:LocalCustomProperties>
+                      <pnp:Terms>
+                        <pnp:Term Name="Our areas of activity">
+                          <pnp:Labels>
+                            <pnp:Label Language="1036" Value="Nos Métiers" IsDefaultForLanguage="true" />
+                          </pnp:Labels>
+                          <pnp:LocalCustomProperties>
+                            <pnp:Property Key="_Sys_Nav_SimpleLinkUrl" Value="" />
+                          </pnp:LocalCustomProperties>
+                        </pnp:Term>
+                        <pnp:Term Name="who we are?">
+                          <pnp:Labels>
+                            <pnp:Label Language="1036" Value="Qui sommes nous?" IsDefaultForLanguage="true" />
+                          </pnp:Labels>
+                          <pnp:LocalCustomProperties>
+                            <pnp:Property Key="_Sys_Nav_SimpleLinkUrl" Value="" />
+                          </pnp:LocalCustomProperties>
+                        </pnp:Term>
+                      </pnp:Terms>
+                    </pnp:Term>
+                    <pnp:Term Name="Code of conduct">
+                      <pnp:Labels>
+                        <pnp:Label Language="1036" Value="Code de conduite" IsDefaultForLanguage="true" />
+                      </pnp:Labels>
+                      <pnp:LocalCustomProperties>
+                        <pnp:Property Key="_Sys_Nav_SimpleLinkUrl" Value="" />
+                      </pnp:LocalCustomProperties>
+                    </pnp:Term>
+                  </pnp:Terms>
+                  <pnp:Labels>
+                    <pnp:Label Language="1036" Value="Working @ GHL Group" IsDefaultForLanguage="true" />
+                  </pnp:Labels>
+                  <pnp:LocalCustomProperties>
+                    <pnp:Property Key="_Sys_Nav_SimpleLinkUrl" Value="" />
+                  </pnp:LocalCustomProperties>
+                </pnp:Term>
+                <pnp:Term Name="Tools">
+                  <pnp:Terms>
+                    <pnp:Term Name="HR">
+                      <pnp:Terms>
+                        <pnp:Term Name="Expense Notes">
+                          <pnp:Labels>
+                            <pnp:Label Language="1036" Value="Notes de frais" IsDefaultForLanguage="true" />
+                          </pnp:Labels>
+                          <pnp:LocalCustomProperties>
+                            <pnp:Property Key="_Sys_Nav_SimpleLinkUrl" Value="" />
+                          </pnp:LocalCustomProperties>
+                        </pnp:Term>
+                        <pnp:Term Name="Leave management">
+                          <pnp:Labels>
+                            <pnp:Label Language="1036" Value="Gestion des congés" IsDefaultForLanguage="true" />
+                          </pnp:Labels>
+                          <pnp:LocalCustomProperties>
+                            <pnp:Property Key="_Sys_Nav_SimpleLinkUrl" Value="" />
+                          </pnp:LocalCustomProperties>
+                        </pnp:Term>
+                      </pnp:Terms>
+                      <pnp:Labels>
+                        <pnp:Label Language="1036" Value="RH" IsDefaultForLanguage="true" />
+                      </pnp:Labels>
+                      <pnp:LocalCustomProperties>
+                        <pnp:Property Key="_Sys_Nav_SimpleLinkUrl" Value="" />
+                      </pnp:LocalCustomProperties>
+                    </pnp:Term>
+                  </pnp:Terms>
+                  <pnp:Labels>
+                    <pnp:Label Language="1036" Value="Outils" IsDefaultForLanguage="true" />
                   </pnp:Labels>
                   <pnp:LocalCustomProperties>
                     <pnp:Property Key="_Sys_Nav_SimpleLinkUrl" Value="" />
@@ -1009,12 +1117,20 @@
                 </pnp:Term>
                 <pnp:Term Name="Search">
                   <pnp:Terms>
+                    <pnp:Term Name="Intranet">
+                      <pnp:Labels>
+                        <pnp:Label Language="1036" Value="Intranet" IsDefaultForLanguage="true" />
+                      </pnp:Labels>
+                      <pnp:LocalCustomProperties>
+                        <pnp:Property Key="_Sys_Nav_SimpleLinkUrl" Value="{site}/{parameter:PagesLibraryName}/Search.aspx" />
+                      </pnp:LocalCustomProperties>
+                    </pnp:Term>
                     <pnp:Term Name="Documents">
                       <pnp:Labels>
                         <pnp:Label Language="1036" Value="Documents" IsDefaultForLanguage="true" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="_Sys_Nav_SimpleLinkUrl" Value="" />
+                        <pnp:Property Key="_Sys_Nav_SimpleLinkUrl" Value="{site}/{parameter:PagesLibraryName}/SearchDocuments.aspx" />
                       </pnp:LocalCustomProperties>
                     </pnp:Term>
                     <pnp:Term Name="People">
@@ -1022,7 +1138,7 @@
                         <pnp:Label Language="1036" Value="Personne" IsDefaultForLanguage="true" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="_Sys_Nav_SimpleLinkUrl" Value="" />
+                        <pnp:Property Key="_Sys_Nav_SimpleLinkUrl" Value="{site}/{parameter:PagesLibraryName}/SearchPeople.aspx" />
                       </pnp:LocalCustomProperties>
                     </pnp:Term>
                   </pnp:Terms>
@@ -1030,7 +1146,7 @@
                     <pnp:Label Language="1036" Value="Recherche" IsDefaultForLanguage="true" />
                   </pnp:Labels>
                   <pnp:LocalCustomProperties>
-                    <pnp:Property Key="_Sys_Nav_SimpleLinkUrl" Value="" />
+                    <pnp:Property Key="_Sys_Nav_SimpleLinkUrl" Value="{site}/{parameter:PagesLibraryName}/Search.aspx" />
                   </pnp:LocalCustomProperties>
                 </pnp:Term>
                 <pnp:Term Name="Web Site">
@@ -1041,7 +1157,7 @@
                     <pnp:Property Key="align" Value="right" />
                   </pnp:CustomProperties>
                   <pnp:LocalCustomProperties>
-                    <pnp:Property Key="_Sys_Nav_SimpleLinkUrl" Value="https://github.com/OfficeDev/PnP" />
+                    <pnp:Property Key="_Sys_Nav_SimpleLinkUrl" Value="http://www.ghlgroupe.be" />
                   </pnp:LocalCustomProperties>
                 </pnp:Term>
               </pnp:Terms>

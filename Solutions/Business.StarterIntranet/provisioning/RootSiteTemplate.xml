@@ -8,7 +8,7 @@
   </pnp:Preferences>
   <pnp:Templates ID="CONTAINER-TEMPLATE-PNP-O365-STARTER-INTRANET">
     <pnp:ProvisioningTemplate ID="TEMPLATE-PNP-O365-STARTER-INTRANET" Version="1">
-      <pnp:WebSettings RequestAccessEmail="someone@example.com" Title="PnP Starter Intranet v2.0" NoCrawl="false" WelcomePage="{parameter:PagesLibraryName}/RootRedirect.aspx" SiteLogo="" AlternateCSS="" MasterPageUrl="{masterpagecatalog}/seattle.master" CustomMasterPageUrl="{masterpagecatalog}/{parameter:CompanyName}/portal.master" />
+      <pnp:WebSettings RequestAccessEmail="someone@example.com" Title="Jean Gotta" NoCrawl="false" WelcomePage="{parameter:PagesLibraryName}/RootRedirect.aspx" SiteLogo="{sitecollection}/Style Library/{parameter:CompanyName}/img/jg_logo.png" AlternateCSS="" MasterPageUrl="{masterpagecatalog}/seattle.master" CustomMasterPageUrl="{masterpagecatalog}/{parameter:CompanyName}/portal.master" />
       <pnp:RegionalSettings AdjustHijriDays="0" AlternateCalendarType="None" CalendarType="Gregorian" Collation="25" FirstDayOfWeek="Sunday" FirstWeekOfYear="0" LocaleId="1033" ShowWeeks="false" Time24="false" TimeZone="10" WorkDayEndHour="5:00PM" WorkDays="62" WorkDayStartHour="8:00AM" />
       <pnp:SupportedUILanguages>
         <pnp:SupportedUILanguage LCID="1033" />    
@@ -790,6 +790,11 @@
         </pnp:WebFeatures>
       </pnp:Features>
       <pnp:Files>
+
+        <!-- Logo -->
+        <pnp:File Src=".\artefacts\img\JG_Logo.png" Folder="{sitecollection}/Style Library/{parameter:CompanyName}/img" Overwrite="true" Level="Published">
+        </pnp:File>
+        <!-- End: Master Pages -->
 
         <!-- Start: Master Pages -->
         <pnp:File Src=".\artefacts\master pages\portal.master" Folder="{masterpagecatalog}/{parameter:CompanyName}" Overwrite="true" Level="Published">

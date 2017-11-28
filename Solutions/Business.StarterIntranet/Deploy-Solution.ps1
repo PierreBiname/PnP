@@ -185,18 +185,18 @@ if ($IncludeData.IsPresent) {
 
     $CarouselItemsEN = @(
 
-	    @{ "Title"="PnP Starter Intranet official documentation";"CarouselItemURL"="https://transactions.sendowl.com/packages/48364/D024B326/view";"CarouselItemImage"="https://static.wixstatic.com/media/9b7fa1_d42f3bd96f5e40ed885a12eaca09513e~mv2_d_1920_1416_s_2.jpeg";"IntranetContentLanguage"="EN" },
-	    @{ "Title"="Sample element";"CarouselItemURL"="https://dev.office.com/";"CarouselItemImage"="http://via.placeholder.com/640x360";"IntranetContentLanguage"="EN" },
-        @{ "Title"="Sample element";"CarouselItemURL"="https://dev.office.com/";"CarouselItemImage"="http://via.placeholder.com/640x360";"IntranetContentLanguage"="EN" },
-	    @{ "Title"="Sample element";"CarouselItemURL"="https://dev.office.com/";"CarouselItemImage"="http://via.placeholder.com/640x360";"IntranetContentLanguage"="EN" }
+	    @{ "Title"="Jean Gotta Group recrute !";"CarouselItemURL"="http://aubel.blogs.sudinfo.be/archive/2016/09/23/jean-gotta-group-recrute-202158.html";"CarouselItemImage"="http://size.blogspirit.net/blogs.sudinfo.be/static/826/media/149/2808339200.png";"IntranetContentLanguage"="EN" },
+	    @{ "Title"="Une nouvelle société rejoint le groupe Jean GOTTA";"CarouselItemURL"="http://www.ghlgroupe.be/0132/fr/149/Une-nouvelle-societe-rejoint-le-groupe-Jean-GOTTA";"CarouselItemImage"="http://www.ghlgroupe.be/images/i_news/Large_lancier.jpg";"IntranetContentLanguage"="EN" },
+        @{ "Title"="Bravo à la gagnante du Couteau d'Or 2017!";"CarouselItemURL"="http://www.ghlgroupe.be/0132/fr/148/Bravo-a-la-gagnante-du-Couteau-d-Or-2017";"CarouselItemImage"="http://www.ghlgroupe.be/images/i_news/Large_Unknown.jpeg";"IntranetContentLanguage"="EN" },
+	    @{ "Title"="Le ministre Willy Borsus en visite chez GHL groupe Jean Gotta";"CarouselItemURL"="http://www.ghlgroupe.be/0132/fr/146/Le-ministre-Willy-Borsus-en-visite-chez-GHL-groupe-Jean-Gotta";"CarouselItemImage"="http://www.ghlgroupe.be/images/i_news/Large_IMG-3854.jpg";"IntranetContentLanguage"="EN" }
     )
 
     $CarouselItemsFR = @(
 
-	    @{ "Title"="Documentation officielle de la solution PnP Starter Intranet";"CarouselItemURL"="https://transactions.sendowl.com/packages/48367/D92CFE56/view";"CarouselItemImage"="https://static.wixstatic.com/media/9b7fa1_d42f3bd96f5e40ed885a12eaca09513e~mv2_d_1920_1416_s_2.jpeg";"IntranetContentLanguage"="FR" },
-	    @{ "Title"="Élement de démo";"CarouselItemURL"="https://dev.office.com/";"CarouselItemImage"="http://via.placeholder.com/640x360";"IntranetContentLanguage"="FR" },
-    	@{ "Title"="Élement de démo";"CarouselItemURL"="https://dev.office.com/";"CarouselItemImage"="http://via.placeholder.com/640x360";"IntranetContentLanguage"="FR" },
-	    @{ "Title"="Élement de démo";"CarouselItemURL"="https://dev.office.com/";"CarouselItemImage"="http://via.placeholder.com/640x360";"IntranetContentLanguage"="FR" }
+	    @{ "Title"="Jean Gotta Group recrute !";"CarouselItemURL"="http://aubel.blogs.sudinfo.be/archive/2016/09/23/jean-gotta-group-recrute-202158.html";"CarouselItemImage"="http://size.blogspirit.net/blogs.sudinfo.be/static/826/media/149/2808339200.png";"IntranetContentLanguage"="FR" },
+	    @{ "Title"="Une nouvelle société rejoint le groupe Jean GOTTA";"CarouselItemURL"="http://www.ghlgroupe.be/0132/fr/149/Une-nouvelle-societe-rejoint-le-groupe-Jean-GOTTA";"CarouselItemImage"="http://www.ghlgroupe.be/images/i_news/Large_lancier.jpg";"IntranetContentLanguage"="FR" },
+    	@{ "Title"="Bravo à la gagnante du Couteau d'Or 2017!";"CarouselItemURL"="http://www.ghlgroupe.be/0132/fr/148/Bravo-a-la-gagnante-du-Couteau-d-Or-2017";"CarouselItemImage"="http://www.ghlgroupe.be/images/i_news/Large_Unknown.jpeg";"IntranetContentLanguage"="FR" },
+	    @{ "Title"="Le ministre Willy Borsus en visite chez GHL groupe Jean Gotta";"CarouselItemURL"="http://www.ghlgroupe.be/0132/fr/146/Le-ministre-Willy-Borsus-en-visite-chez-GHL-groupe-Jean-Gotta";"CarouselItemImage"="http://www.ghlgroupe.be/images/i_news/Large_IMG-3854.jpg";"IntranetContentLanguage"="FR" }
     )
 
     $CarouselItemsEN | ForEach-Object {
