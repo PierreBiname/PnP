@@ -964,43 +964,7 @@
                 <pnp:Property Key="_Sys_Nav_IsNavigationTermSet" Value="True" />
               </pnp:CustomProperties>
               <pnp:Terms>
-                <pnp:Term Name="About Patterns and Practices">
-                  <pnp:Terms>
-                    <pnp:Term Name="How to get started or contribute?">
-                      <pnp:Terms>
-                        <pnp:Term Name="Setting up your environment">
-                          <pnp:Labels>
-                            <pnp:Label Language="1036" Value="Préparer votre environement" IsDefaultForLanguage="true" />
-                          </pnp:Labels>
-                          <pnp:LocalCustomProperties>
-                            <pnp:Property Key="_Sys_Nav_SimpleLinkUrl" Value="" />
-                          </pnp:LocalCustomProperties>
-                        </pnp:Term>
-                      </pnp:Terms>
-                      <pnp:Labels>
-                        <pnp:Label Language="1036" Value="Comment démarrer ou contribuer?" IsDefaultForLanguage="true" />
-                      </pnp:Labels>
-                      <pnp:LocalCustomProperties>
-                        <pnp:Property Key="_Sys_Nav_SimpleLinkUrl" Value="" />
-                      </pnp:LocalCustomProperties>
-                    </pnp:Term>
-                    <pnp:Term Name="Community calls">
-                      <pnp:Labels>
-                        <pnp:Label Language="1036" Value="Appels de la communauté" IsDefaultForLanguage="true" />
-                      </pnp:Labels>
-                      <pnp:LocalCustomProperties>
-                        <pnp:Property Key="_Sys_Nav_SimpleLinkUrl" Value="" />
-                      </pnp:LocalCustomProperties>
-                    </pnp:Term>
-                    <pnp:Term Name="Samples">
-                      <pnp:Labels>
-                        <pnp:Label Language="1036" Value="Exemples" IsDefaultForLanguage="true" />
-                      </pnp:Labels>
-                      <pnp:LocalCustomProperties>
-                        <pnp:Property Key="_Sys_Nav_SimpleLinkUrl" Value="" />
-                      </pnp:LocalCustomProperties>
-                    </pnp:Term>
-                  </pnp:Terms>
+                <pnp:Term Name="News">
                   <pnp:Labels>
                     <pnp:Label Language="1036" Value="À propos de PnP" IsDefaultForLanguage="true" />
                   </pnp:Labels>
@@ -1042,27 +1006,19 @@
                     <pnp:Property Key="_Sys_Nav_SimpleLinkUrl" Value="" />
                   </pnp:LocalCustomProperties>
                 </pnp:Term>
-                <pnp:Term Name="News">
+                <pnp:Term Name="Search">
                   <pnp:Terms>
-                    <pnp:Term Name="News category 1">
+                    <pnp:Term Name="Documents">
                       <pnp:Labels>
-                        <pnp:Label Language="1036" Value="Nouvelles de catégorie 1" IsDefaultForLanguage="true" />
+                        <pnp:Label Language="1036" Value="Documents" IsDefaultForLanguage="true" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
                         <pnp:Property Key="_Sys_Nav_SimpleLinkUrl" Value="" />
                       </pnp:LocalCustomProperties>
                     </pnp:Term>
-                    <pnp:Term Name="News category 2">
+                    <pnp:Term Name="People">
                       <pnp:Labels>
-                        <pnp:Label Language="1036" Value="Nouvelles de catégorie 2" IsDefaultForLanguage="true" />
-                      </pnp:Labels>
-                      <pnp:LocalCustomProperties>
-                        <pnp:Property Key="_Sys_Nav_SimpleLinkUrl" Value="" />
-                      </pnp:LocalCustomProperties>
-                    </pnp:Term>
-                    <pnp:Term Name="News category 3">
-                      <pnp:Labels>
-                        <pnp:Label Language="1036" Value="Nouvelles de catégorie 3" IsDefaultForLanguage="true" />
+                        <pnp:Label Language="1036" Value="Personne" IsDefaultForLanguage="true" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
                         <pnp:Property Key="_Sys_Nav_SimpleLinkUrl" Value="" />
@@ -1070,15 +1026,15 @@
                     </pnp:Term>
                   </pnp:Terms>
                   <pnp:Labels>
-                    <pnp:Label Language="1036" Value="Nouvelles" IsDefaultForLanguage="true" />
+                    <pnp:Label Language="1036" Value="Recherche" IsDefaultForLanguage="true" />
                   </pnp:Labels>
                   <pnp:LocalCustomProperties>
                     <pnp:Property Key="_Sys_Nav_SimpleLinkUrl" Value="" />
                   </pnp:LocalCustomProperties>
                 </pnp:Term>
-                <pnp:Term Name="PnP on GitHub">
+                <pnp:Term Name="Web Site">
                   <pnp:Labels>
-                    <pnp:Label Language="1036" Value="PnP sur GitHub" IsDefaultForLanguage="true" />
+                    <pnp:Label Language="1036" Value="Site Web" IsDefaultForLanguage="true" />
                   </pnp:Labels>
                   <pnp:CustomProperties>
                     <pnp:Property Key="align" Value="right" />
@@ -1104,7 +1060,7 @@
                     <pnp:Property Key="iconClass" Value="fa-home" />
                   </pnp:CustomProperties>
                   <pnp:LocalCustomProperties>
-                    <pnp:Property Key="_Sys_Nav_SimpleLinkUrl" Value="/sites/{site}/{parameter:PagesLibraryName}/Home.aspx" />
+                    <pnp:Property Key="_Sys_Nav_SimpleLinkUrl" Value="{site}/{parameter:PagesLibraryName}/Home.aspx" />
                   </pnp:LocalCustomProperties>
                 </pnp:Term>
                 <pnp:Term Name="Contact">
